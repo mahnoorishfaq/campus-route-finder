@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {"id": "gate", "name": "Main Gate", "x": 0, "y": 0},
+    {"id": "admin", "name": "Admin Block", "x": 10, "y": 5},
+    {"id": "library", "name": "Central Library", "x": 20, "y": 15},
+    {"id": "cs_dept", "name": "CS Department", "x": 25, "y": 30},
+    {"id": "cafeteria", "name": "Cafeteria", "x": 12, "y": 22},
+    {"id": "auditorium", "name": "Auditorium", "x": 30, "y": 10},
+    {"id": "hostel", "name": "Hostel Block", "x": 35, "y": 35},
+    {"id": "sports", "name": "Sports Complex", "x": 5, "y": 30},
+    {"id": "parking", "name": "Parking Area", "x": 3, "y": 10},
+    {"id": "acm_office", "name": "ACM Student Chapter Office", "x": 22, "y": 25}
+  ],
+  "edges": [
+    {"from": "gate", "to": "admin", "weight": 11.6},
+    {"from": "gate", "to": "parking", "weight": 10.9},
+    {"from": "admin", "to": "library", "weight": 15.2},
+    {"from": "admin", "to": "auditorium", "weight": 21.5},
+    {"from": "library", "to": "cs_dept", "weight": 16.4},
+    {"from": "library", "to": "cafeteria", "weight": 11.1},
+    {"from": "cafeteria", "to": "sports", "weight": 11.4},
+    {"from": "cafeteria", "to": "acm_office", "weight": 10.8},
+    {"from": "cs_dept", "to": "acm_office", "weight": 6.2},
+    {"from": "cs_dept", "to": "hostel", "weight": 11.7},
+    {"from": "auditorium", "to": "hostel", "weight": 26.9},
+    {"from": "parking", "to": "sports", "weight": 21.3},
+    {"from": "sports", "to": "hostel", "weight": 32.4},
+    {"from": "acm_office", "to": "auditorium", "weight": 17.6}
+  ]
+}

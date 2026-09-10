@@ -1,0 +1,5 @@
+# Pinned to the light theme so the matplotlib map, which is drawn on a white
+# background, does not clash with a viewer's dark mode.
+[theme]
+base = "light"
+primaryColor = "#2563eb"
