@@ -4,6 +4,7 @@ Finds the shortest walking route between two campus locations, and shows *why* y
 
 ![python](https://img.shields.io/badge/python-3.10%2B-blue) ![streamlit](https://img.shields.io/badge/streamlit-app-ff4b4b) ![tests](https://img.shields.io/badge/tests-9%20passing-brightgreen)
 
+**[▶ Try the live app](https://campus-route-finder-x8s8dtnjsgjvrr2ccn6spq.streamlit.app/)**
 
 ![demo](docs/demo.gif)
 
